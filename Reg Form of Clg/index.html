@@ -4,28 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Registration Form</title>
+    <title>MIT - Massachusetts Institute of Technology</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <img src="GCELT_logo.png" alt="College Logo" width="100">
-    <h2>Registration Form of Government College of Engineering and Leather Technology</h2><br> <br>
-    Student Name : <input type="text" name="Name" placeholder="Enter Your Name" required autofocus id=""> <br><br>
+    <img src="MIT-Massachusetts-Institute-of-Technology-Logo.png" alt="College Logo" width="300">
+
+    <h2>Registration Form of Massachusetts Institute of Technology</h2><br> <br>
+
+    First Name : <input type="text" name="Name" placeholder="First Name" required autofocus id=""> 
+    Middle Name : <input type="text" name="middlename" placeholder="Middle Name" autofocus id="">
+    Last Name : <input type="text" name="Name" placeholder="Last Name" required autofocus id=""><br><br>
+
     Email : <input type="email" name="Email" placeholder="abc@gmail.com" required id="">
     Phone Number : <input type="number" name="Phone Number" placeholder="Enter Your Phone Number" required id="">
     Date of Birth : <input type="date" name="date of birth" id="">
     Age : <input type="number" placeholder="Enter your Age" min="17"> <br><br>
-    Gender : <input type="radio" name="Gender" id="male"><label for="male">Male</label>
+
+    Gender : <input type="radio" name="Gender" id="male" required><label for="male">Male</label>
     <input type="radio" name="Gender" id="female"><label for="female">Female</label><br><br>
+
     <h4>Address</h4>
     Vill/City : <input type="text" name="vill/city" placeholder="City/Village Name" id="">
     P.O. : <input type="text" name="post office" placeholder="Post office" id="">
     Pincode : <input type="number" name="pincode" placeholder="Enter Your Pincode" required id="">
     District : <input type="text" name="district" placeholder="District Name" id="">
     State : <input type="text" name="State" placeholder="State Name" id=""> <br><br><br><br>
-    WBJEE Rank : <input type="number" placeholder="WBJEE Rank"><br><br>
-    <input type="checkbox" name="t&c" id="t&c"><label for="t&c">I HAVE READ ALL THE TERMS AND CONDITIONS*</label><br><br>
+    
+    Upload Your Photo : <input type="file" name="Your Image" value="profile pic" required><br><br>
+
+
+    <input type="checkbox" name="t&c" id="t&c" required><label for="t&c">I HAVE READ ALL THE TERMS AND CONDITIONS*</label><br><br>
     <button>Submit</button>
 </body>
 
