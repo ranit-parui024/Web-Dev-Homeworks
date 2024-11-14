@@ -5,3 +5,8 @@ button{
     background-color: blue;
     color: aliceblue;
 }
+
+h1{
+    font-weight: 600;
+    font-size: 50px;
+}
